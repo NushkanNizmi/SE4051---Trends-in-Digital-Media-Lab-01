@@ -85,7 +85,7 @@ Keep:
 
 ---
 
-## Step 3 — Create the Ground
+## Step 3 - Create the Ground
 
 Hierarchy → Right Click → 3D Object → Plane
 
@@ -94,7 +94,7 @@ Reset Transform: `Position: 0,0,0` | `Rotation: 0,0,0` | `Scale: 1,1,1`
 
 ---
 
-## Step 4 — Create the Interaction Cube
+## Step 4 - Create the Interaction Cube
 
 Hierarchy → Right Click → 3D Object → Cube
 
@@ -105,7 +105,7 @@ The cube should now be directly in front of the camera.
 
 ---
 
-## Step 5 — Improve Visibility
+## Step 5 - Improve Visibility
 
 Select **Cube → Inspector → Mesh Renderer → Material**
 
@@ -121,7 +121,7 @@ Choose a bright color (blue recommended).
 Drag the material onto the cube.
 
 
-# Part 2 — Gaze Interaction (Main Task)
+# Part 2 - Gaze Interaction (Main Task)
 
 ---
 
@@ -137,7 +137,7 @@ This is called: `Intent Detection`
 
 ---
 
-## Step 1 — Create the Script
+## Step 1 - Create the Script
 
 Project → Right Click → Create → C# Script
 
@@ -191,13 +191,13 @@ Save the script and return to Unity.
 
 ---
 
-## Step 2 — Attach the Script
+## Step 2 - Attach the Script
 
 Drag the **GazeInteraction** script onto the cube in the Hierarchy.
 
 ---
 
-## Step 3 — Test the Interaction
+## Step 3 - Test the Interaction
 
 Click the **Play** button.
 
@@ -216,7 +216,7 @@ Hint: Change `Color.green` to `Color.red`.
 
 ---
 
-# Part 3 — Gaze Selection System
+# Part 3 - Gaze Selection System
 
 Looking is not enough. XR systems often use:
 
@@ -224,7 +224,7 @@ Dwell Time Selection (looking for a short time = select)
 
 ---
 
-## Step 1 — Update Script
+## Step 1 - Update Script
 
 Replace your script with the following code:
 
@@ -271,7 +271,7 @@ public class GazeInteraction : MonoBehaviour
     }
 }
 ```
-## Step 2 — Test Again
+## Step 2 - Test Again
 
 Look at the cube for **2 seconds**.
 
@@ -281,13 +281,13 @@ You have now created button-free interaction, which is commonly used in accessib
 
 ---
 
-# Part 4 — Add Sensory Feedback
+# Part 4 - Add Sensory Feedback
 
 XR feels more realistic when multiple senses are engaged. In this section, you will add a sound cue to simulate sensory feedback.
 
 ---
 
-## Step 1 — Add Audio Feedback
+## Step 1 - Add Audio Feedback
 
 Hierarchy → Right Click → Audio → Audio Source
 
@@ -302,7 +302,7 @@ Import any short click sound (Unity provides free options), then drag it into th
 
 ---
 
-## Step 2 — Modify Script
+## Step 2 - Modify Script
 
 Open the `GazeInteraction` script and add this variable near the top of the class:
 
@@ -326,7 +326,7 @@ if (timer >= dwellTime)
 
 Save the script.
 
-## Step 3 — Link the Audio Source
+## Step 3 - Link the Audio Source
 
 Select the cube in the Hierarchy.
 
@@ -336,7 +336,7 @@ Drag the `SelectSound` object from the Hierarchy into the **Select Audio** field
 
 ---
 
-## Step 4 — Test
+## Step 4 - Test
 
 Click **Play**.
 
@@ -351,7 +351,7 @@ This demonstrates multisensory design, where visual and audio feedback work toge
 
 ---
 
-# Part 5 — Presence Experiment
+# Part 5 - Presence Experiment
 
 Create a second cube that does **not** include sound.
 
