@@ -1,3 +1,4 @@
+# SE4051 Trends in Digital Media 
 # Lab 01 - Simulating Human-Centered XR Interactions
 
 ---
