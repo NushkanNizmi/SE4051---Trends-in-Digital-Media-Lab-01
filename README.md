@@ -1,4 +1,4 @@
-# Lab 01 — Simulating Human-Centered XR Interactions
+# Lab 01 - Simulating Human-Centered XR Interactions
 
 ---
 
@@ -53,11 +53,11 @@ If something does not work, recheck the step before calling the lecturer. Most U
 
 ---
 
-# Part 1 — Scene Setup 
+# Part 1 - Scene Setup 
 
 ---
 
-## Step 1 — Create a New Project
+## Step 1 - Create a New Project
 
 Open Unity Hub → New Project
 
@@ -71,7 +71,7 @@ Click **Create Project**.
 
 ---
 
-## Step 2 — Prepare the Scene
+## Step 2 - Prepare the Scene
 
 Inside **Hierarchy**:
 
